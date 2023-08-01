@@ -50,6 +50,9 @@ body {
 .navbar {
   margin-top: 40px;
 }
+.navbar .colorLink {
+  color: white;
+}
 
 header nav {
   display: flex;
@@ -71,6 +74,7 @@ header nav ul li a {
 
 #navbarNav {
   justify-content: space-between;
+  color: white;
 }
 
 /*Tamaño de icono de redes sociales en el nav bar*/
@@ -87,6 +91,10 @@ header nav ul li a {
   margin-bottom: 200px;
   margin-top: 200px;
   letter-spacing: 2px;
+}
+
+#textCuriosidades {
+  margin-top: 50px;
 }
 
 /*Areglos del acordeon*/
@@ -246,15 +254,16 @@ header nav ul li a {
 
 /*Footer*/
 .footer {
-  border-radius: 30px 30px 0 0;
+  border-radius: 56px 56px 0 0;
   margin-top: 200px;
-  background: rgb(4, 2, 30);
-  background: linear-gradient(0deg, rgb(4, 2, 30) 86%, rgb(90, 88, 121) 99%);
+  background: #211F41;
 }
 
 .copy {
-  color: #211F41;
+  color: #7976A8;
   margin: 0 0 20px 30px;
+  font-size: small;
+  font-weight: lighter;
 }
 
 .redesFooter img {
@@ -264,11 +273,15 @@ header nav ul li a {
 
 #footerSection {
   justify-content: space-between;
+  margin: 0 20px 20px 20px;
 }
 
 .banderaFooter {
   margin-top: 50px;
   text-align: right;
+}
+.banderaFooter img {
+  height: 50px;
 }
 
 @media screen and (min-width: 992px) {

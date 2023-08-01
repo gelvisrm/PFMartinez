@@ -1,5 +1,8 @@
 .navbar{
     margin-top: 40px;
+        .colorLink{
+            color: white;
+        }
 }
 header nav{
     display: flex;
@@ -21,6 +24,7 @@ header nav{
 
 #navbarNav{
     justify-content: space-between;
+    color: white;
 
 }
 /*Tamaño de icono de redes sociales en el nav bar*/
