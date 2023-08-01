@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/* Reset de margenes y bordes*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*VARIABLES*/
+.center, #testimonios, #h3Colabora, #botonColabora, .contactoDescripcion, #h2Equipo, .cardNosotros {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Ingreso de font*/
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: #04021E;
+  color: white;
+  background-image: url("../images/fondo.png");
+  background-repeat: no-repeat;
+}
+
+/*RESALTADO DE TEXTOS*/
+.resaltartext {
+  color: #FF9500;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.textCarousel {
+  letter-spacing: 2px;
+  color: #FF9500;
+  text-shadow: 1px 1px 2px rgb(20, 20, 20);
+}
+
+.textVenezuela {
+  font-weight: bold;
+  color: #FF9500;
+}
+
+#resaltarNosotros {
+  color: #C9FF5A;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-top: 40px;
+}
+
+header nav {
+  display: flex;
+  color: white;
+}
+header nav ul {
+  display: flex;
+  color: white;
+}
+header nav ul li {
+  display: flex;
+  color: white;
+}
+header nav ul li a {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+#navbarNav {
+  justify-content: space-between;
+}
+
+/*Tamaño de icono de redes sociales en el nav bar*/
+.fab {
+  height: 30px;
+}
+
+#botonSuscribete {
+  border-radius: 24px;
+}
+
+/*Arreglos de la seccion Main*/
+#cajaPrincipal {
+  margin-bottom: 200px;
+  margin-top: 200px;
+  letter-spacing: 2px;
+}
+
+/*Areglos del acordeon*/
+.acordeonBox {
+  margin-top: 100px;
+}
+
+.acordeonTitulo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.acordeonTitulo .h3Acordeon {
+  color: white;
+}
+.acordeonTitulo .iconoAcordeon {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.bgAcordeon {
+  background-color: #211F41;
+  color: white;
+}
+
+/*TERCERA SECCIÓN*/
+#terceraCaja {
+  margin-top: 100px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Card Nosotros*/
+.cardNosotros {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #211F41;
+}
+
+#mision {
+  text-align: justify;
+}
+
+/*Card topicos*/
+.lineas {
+  color: #7976A8;
+}
+
+.iconosVarios {
+  height: 30px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+/*Seccion Video*/
+#video {
+  margin-top: 200px;
+}
+
+/*Pagina Nosotros*/
+.h2Nosotros {
+  text-align: center;
+}
+
+#containerPico {
+  margin-top: 100px;
+}
+
+/*Arreglo de imagenes*/
+#imgPico {
+  border-radius: 60px 0 0 60px;
+}
+
+#imgCielo {
+  border-radius: 0 60px 60px 0;
+}
+
+/*Arreglos pagina Equipo*/
+/*Secciones de equipo*/
+.contactoDescripcion {
+  margin-top: 100px;
+}
+
+#textoEquipo {
+  text-align: justify;
+}
+
+/*Pagina Unirme*/
+#botonColabora {
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+#botonColabora img {
+  height: 20px;
+}
+
+#fondoColabora {
+  background-color: #71D6B9;
+  color: #04021E;
+  text-align: justify;
+  border-radius: 40px 40px 40px 40px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#testimonios {
+  margin-bottom: 50px;
+  color: #FF9500;
+}
+
+/*Pagina contacto*/
+.inputContacto {
+  border: 2px solid #7976A8;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding-top: 10px;
+}
+
+#mensaje {
+  border: 2px solid #7976A8;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding-top: 10px;
+  font-size: small;
+  text-align: start;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+
+#botonContacto {
+  color: #7976A8;
+  margin-top: 10px;
+  border-radius: 24px;
+}
+
+#nombre {
+  text-align: start;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: small;
+  letter-spacing: 1px;
+}
+
+#email {
+  text-align: start;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: small;
+  letter-spacing: 1px;
+}
+
+/*Footer*/
+.footer {
+  border-radius: 30px 30px 0 0;
+  margin-top: 200px;
+  background: rgb(4, 2, 30);
+  background: linear-gradient(0deg, rgb(4, 2, 30) 86%, rgb(90, 88, 121) 99%);
+}
+
+.copy {
+  color: #211F41;
+  margin: 0 0 20px 30px;
+}
+
+.redesFooter img {
+  margin-top: 50px;
+  height: 50px;
+}
+
+#footerSection {
+  justify-content: space-between;
+}
+
+.banderaFooter {
+  margin-top: 50px;
+  text-align: right;
+}
+
+@media screen and (min-width: 992px) {
+  .card .card-body {
+    background-color: #211F41;
+    color: white;
+  }
+}
+@media screen and (max-width: 991px) {
+  .card .card-body {
+    background-color: #211F41;
+    color: white;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card .card-body {
+    background-color: #211F41;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
