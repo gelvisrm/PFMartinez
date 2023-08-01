@@ -172,7 +172,7 @@ header nav ul li a {
 /*Arreglos pagina Equipo*/
 /*Secciones de equipo*/
 .contactoDescripcion {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #textoEquipo {
@@ -363,9 +363,30 @@ header nav ul li a {
   }
 }
 @media screen and (max-width: 767px) {
+  #mobileEquipo {
+    margin-top: 50px;
+  }
   .card .card-body {
     background-color: #211F41;
     color: white;
+  }
+  .redesFooter img {
+    margin-top: 50px;
+    height: 30px;
+  }
+  .contactoDescripcion {
+    margin-top: 30px;
+  }
+  #footerSection {
+    justify-content: center;
+    margin: 0 20px 20px 20px;
+  }
+  .banderaFooter {
+    margin-top: 50px;
+    text-align: right;
+  }
+  .banderaFooter img {
+    height: 30px;
   }
 }
 

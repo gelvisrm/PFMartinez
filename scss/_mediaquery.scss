@@ -22,10 +22,34 @@
 
   // Media Query para dispositivos móviles
 @media screen and (max-width: 767px) {
+    
+    #mobileEquipo{
+        margin-top: 50px;
+    }
+
     .card {
         .card-body {
         background-color: $purple-footer;
         color: $white-brand;
         }
+    }
+    .redesFooter img{
+        margin-top: 50px;
+        height: 30px;
+    }
+    .contactoDescripcion{
+        margin-top: 30px;
+    }
+
+    #footerSection{
+        justify-content: center;
+        margin: 0 20px 20px 20px;
+    }
+    .banderaFooter{
+        margin-top: 50px;
+        text-align: right;
+            img{
+                height: 30px;
+            }
     }
 }
