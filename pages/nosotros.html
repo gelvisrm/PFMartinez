@@ -14,6 +14,8 @@
 
     <!--Link a CSS-->
     <link rel="stylesheet" href="../css/styles.css">
+    <!--CDN CSS ANIMACIÓN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -61,17 +63,17 @@
         <!--PRIMERA SECCION-->
         <section class="container" id="cajaPrincipal">
             <div class="row text-center">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-down-right">
                     <img src="../images/ennuestropais.png" alt="logo bandera">
                     <br>
                     <h1 id="tituloPrincipal">Descubriendo el mundo dentro de <span class="resaltartext">nuestras fronteras</span></h1>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in">
                     <img src="../images/Mapa Venezuela.png" alt="mapas de Venezuela">
                 </div>
             </div>
             <div class="container">
-                <div class="row text-center">
+                <div class="row text-center" data-aos="zoom-in-up">
                     <span class="col-lg-12 col-md-12 col-sm-12" id="textCuriosidades">Conoce Nuestro Propósito, explorar y compartir los tesoros de <span class="textVenezuela">Venezuela</span> </span>
                 </div>
             </div>
@@ -83,7 +85,7 @@
                 <div class=" col-lg-8 col-md-8 col-sm-12">
                     <img class="img-fluid" id="imgCielo" src="../images/pexels-beyza-kaplan-13079007.jpg" alt="cielo estrellado">
                 </div>
-                <div class=" col-lg-4 col-md-4 col-sm-12">
+                <div class=" col-lg-4 col-md-4 col-sm-12" data-aos="fade-left">
                     <h2 class="h2Nosotros">Nosotros</h2>
                     <p id="mision">Más que un equipo, amigos que la vida juntó con la misma pasión por  descubrir sus fronteras. Queremos rescatar una <span class="textVenezuela">Venezuela</span> olvidada y demostrar a través de la educación que En Nuestro País aún hay mucho por contar. <br>
                         Este proyecto nació desde el exilio, desde las ganas de querer mostrar a otros nuestra cultura, nuestros paisajes, nuestra gente y de lo que realmente nos enorgullesemos, <span id="resaltarNosotros">esto que si nos representa y nos llena el corazón.</span></p>
@@ -92,7 +94,7 @@
         </section>
         <section class="container" id="containerPico">
             <div class="row">
-                <div class=" col-lg-4 col-md-4 col-sm-12">
+                <div class=" col-lg-4 col-md-4 col-sm-12" data-aos="fade-right">
                     <h2 class="h2Nosotros">Misión</h2>
                     <p id="mision">Estamos comprometidos con la documentación y difusión de información sobre <span class="textVenezuela">Venezuela</span>. A través de nuestros videos informativos, con un enfoque objetivo y riguroso, buscamos brindar una visión integral de los acontecimientos que han marcado la historia reciente del país. Nuestro objetivo es fomentar el entendimiento y promover el diálogo constructivo, proporcionando a nuestro público una perspectiva clara y equilibrada de los diversos aspectos que conforman la realidad venezolana.</p>
                 </div> 
@@ -119,5 +121,7 @@
             </section>
         </footer>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
 </body>
 </html>

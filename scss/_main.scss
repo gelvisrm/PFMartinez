@@ -43,8 +43,6 @@
 
 /*Card Nosotros*/
 .cardNosotros{
-    width: 100%;
-    height:100%;
     border-radius:15px;
     background-color: $purple-footer;
     @extend .center;
@@ -115,6 +113,75 @@ margin-top: 15px
     text-align: justify;
 }
 
+/*Galeria en equipo*/
+.accordian {
+	width: 100%; height: 500px;
+	overflow: hidden;
+	
+	/*Time for some styling*/
+	margin: 100px auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+
+.accordian ul {
+	width: 2000px;
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 160px;
+	float: left;
+	
+	border-left: 1px solid #888;
+	
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 40px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 640px;}
+
+
+.accordian li img {
+	display: block;
+}
+
+.h3espacioTrabajo{
+@extend .center;
+margin-top: 80px;
+color: $yellow-brand;
+}
+
+/*Image title styles*/
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+width: 640px;	
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
 /*Pagina Unirme*/
 
 #botonColabora {
@@ -129,8 +196,8 @@ margin-top: 15px
 
 
 #fondoColabora{
-    background-color:$green-brand;
-    color:$primary-background;
+    background-color:$purple-footer;
+    color:white;
     text-align: justify;
     border-radius: 40px 40px 40px 40px;
     height: 100%;
@@ -142,7 +209,7 @@ margin-top: 15px
 #h3Colabora{
     @extend .center;
 }
-#testimonios{
+.testimonios{
     @extend .center;
     margin-bottom: 50px;
     color:  $yellow-brand;

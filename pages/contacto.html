@@ -16,6 +16,9 @@
     <!--Link a CSS-->
     <link rel="stylesheet" href="../css/styles.css">
 
+    <!--CDN CSS ANIMACIÓN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -62,17 +65,17 @@
         <!--PRIMERA SECCION-->
         <section class="container" id="cajaPrincipal">
             <div class="row text-center">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-down-right">
                     <img src="../images/ennuestropais.png" alt="logo bandera">
                     <br>
                     <h1 id="tituloPrincipal">Descubriendo el mundo dentro de <span class="resaltartext">nuestras fronteras</span></h1>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in">
                     <img src="../images/Mapa Venezuela.png" alt="mapas de Venezuela">
                 </div>
             </div>
             <div class="container">
-                <div class="row text-center">
+                <div class="row text-center" data-aos="zoom-in-up">
                     <span class="col-lg-12 col-md-12 col-sm-12" id="textCuriosidades">¿Tienes Preguntas o Comentarios? ¡Nos Encantaría Escucharte!</span>
                 </div>
             </div>
@@ -98,7 +101,7 @@
                         <label for="mensaje"></label><br>
                         <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="4" required></textarea><br>
                     
-                        <input id="botonContacto" class="btn btn-outline-secondary type="submit" value="Enviar">
+                        <input id="botonContacto" data-aos="zoom-in"  class="btn btn-outline-secondary type="submit" value="Enviar">
                 </form>
             </div>
         </section>
@@ -120,5 +123,7 @@
             </section>
         </footer>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
 </body>
 </html>
